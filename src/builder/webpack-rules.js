@@ -38,11 +38,6 @@ module.exports = function() {
                     publicPath: Config.resourceRoot
                 }
             },
-
-            {
-                loader: 'img-loader',
-                options: Config.imgLoaderOptions
-            }
         ]
     });
 
